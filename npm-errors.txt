@@ -1,0 +1,48 @@
+npm error code ENOENT
+npm error syscall open
+npm error path C:\Users\SriMu\Documents\vajrakaya-celebration\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\SriMu\Documents\vajrakaya-celebration\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\SriMu\AppData\Local\npm-cache\_logs\2026-10-20T10_39_47_263Z-debug-0.log
+
+Import trace for requested module:
+./src/app/page.tsx
+ ⨯ ./src/app/page.tsx
+Error:
+  × You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+  │ Learn more: https://nextjs.org/docs/getting-started/react-essentials
+  │
+  │
+   ╭─[C:\Users\SriMu\Documents\vajrakaya-celebration\src\app\page.tsx:1:1]
+ 1 │ import React, { useState } from 'react';
+   ·                 ────────
+ 2 │ import AdminLogin from '@/components/AdminLogin';
+ 3 │ import AdminAddProduct from '@/components/AdminAddProduct';
+ 4 │ import ProductCatalog from '@/components/ProductCatalog';
+   ╰────
+
+Import trace for requested module:
+./src/app/page.tsx
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\DumpStack.log.tmp'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\hiberfil.sys'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\pagefile.sys'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\swapfile.sys'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\DumpStack.log.tmp'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\hiberfil.sys'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\pagefile.sys'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'C:\swapfile.sys'
+ ⨯ ./src/app/page.tsx
+Error:
+  × You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+  │ Learn more: https://nextjs.org/docs/getting-started/react-essentials
+  │
+  │
+   ╭─[C:\Users\SriMu\Documents\vajrakaya-celebration\src\app\page.tsx:1:1]
+ 1 │ import React, { useState } from 'react';
+   ·                 ────────
+ 2 │ import AdminLogin from '@/components/AdminLogin';
+ 3 │ import AdminAddProduct from '@/components/AdminAddProduct';
+ 4 │ import ProductCatalog from '@/components/ProductCatalog';
+   ╰────
